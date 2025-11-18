@@ -74,12 +74,30 @@ CONTENT_BY_LABEL: dict[str, dict[str, list[str]]] = {
     #   "images": ["https://.../jjampong1.jpg", "https://.../jjampong2.jpg"],
     #   "videos": ["https://youtu.be/XXXXXXXXXXX"]
     # }, 
-     labels[0]: {
-       "texts": ["닭고기는", "여러 사람이", "자주 먹는 음식이다"],
+   labels[0]: {
+       "texts": ["닭은 질병에 매우 취약해 ", "항생제와 항콕시듐제 사용 빈도가 높아,", "잔류약물 관리에서 가장 주의가 필요한 축종이다."],
        "images": ["https://www.norangtongdak.co.kr/pds/product/35_1?1660875118"],
        "videos": ["https://www.youtube.com/watch?v=0N_YHXZKZj8"]
      },
 
+   labels[1]: {
+       "texts": ["돼지는 호흡기.장염 질병이 많아", "항생제와 구충제를 자주 사용하며", "잔류 검사에서 비교적 관리가 많이 필요한 축종이다."],
+       "images": ["https://m.health.chosun.com/site/data/img_dir/2024/08/02/2024080201914_0.jpg"],
+       "videos": ["https://www.youtube.com/shorts/6Sd8bytvFPA"]
+     },
+
+   labels[2]: {
+       "texts": ["소는 항생제 사용량은 적지만 ", "체내 대사량이 느려 약물이 오래 남을 수 있어", "금지기간 준수가 가장 중요한 축종이다"],
+       "images": ["https://cdn.ppss.kr/news/photo/201712/142718_36974_1817.jpg"],
+       "videos": ["https://www.youtube.com/watch?v=Zc0QaeFGJWE"]
+     },
+
+
+   labels[3]: {
+       "texts": ["오리는 물 환경에서 사육되어", "세균.기생충 위험이 높아 항생제와 소독제가 사용되며,", "환경성 잔류가 고려되는 축종이다."],
+       "images": ["https://kordotsin.com/cdn/shop/files/Smokedduckmeat200g.jpg?v=1711470921"],
+       "videos": ["https://www.youtube.com/watch?v=0t_2wQ4Qd0g"]
+     },
 }
 
 # ======================
